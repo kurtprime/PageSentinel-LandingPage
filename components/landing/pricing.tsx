@@ -17,58 +17,75 @@ import { cn } from '@/lib/utils'
 const plans = [
   {
     name: 'Starter',
-    price: 49,
-    description: 'For smaller agencies ready to stop finding broken pages from client calls.',
-    sites: 'Up to 20 sites',
-    frequency: 'Every 6 hours',
+    price: 29,
+    description: 'For freelancers and small teams getting started with automated monitoring.',
+    scans: '10,000 scans / month',
+    frequencies: 'Daily, Weekly, Monthly',
     features: [
       'Visual change detection with screenshot diffs',
-      'Email & Slack alerts when something breaks',
+      'Email & Slack alerts',
       'Layout break & content change monitoring',
       'Basic dashboard with site list',
       'Redirect & link change detection',
     ],
-    cta: 'Start 7-day free trial',
+    cta: 'Start Starter',
+    convertTo: 'starter',
     highlight: false,
     icon: Zap,
   },
   {
-    name: 'Agency',
-    price: 149,
-    description: 'For growing agencies that need real-time coverage and client-ready proof of work.',
-    sites: 'Up to 100 sites',
-    frequency: 'Every hour',
+    name: 'Pro',
+    price: 59,
+    description: 'For growing agencies that need hourly coverage and client-ready proof of work.',
+    scans: '50,000 scans / month',
+    frequencies: 'Hourly, Daily, Weekly, Monthly',
     features: [
       'Everything in Starter, plus:',
       'Hourly monitoring across all sites',
-      'Monthly Site Health Snapshots for every client',
-      'Client-branded PDF reports',
+      'Monthly Site Health Snapshots',
       'Priority Slack/Email notifications',
       'Plugin update tracking & changelog alerts',
-      '90‑day visual diff archive',
     ],
-    cta: 'Start 7-day free trial',
+    cta: 'Start Pro',
+    convertTo: 'pro',
     highlight: true,
     icon: Star,
   },
   {
-    name: 'White-Label',
-    price: null,
-    description: 'For agencies that want monitoring as a branded revenue stream.',
-    sites: '100+ sites',
-    frequency: 'Custom frequency',
+    name: 'Business',
+    price: 129,
+    description: 'For established agencies that need frequent scans and client-branded reporting.',
+    scans: '200,000 scans / month',
+    frequencies: 'Every 30m, Hourly, Daily, Weekly, Monthly',
     features: [
-      'Everything in Agency, plus:',
-      'Your logo, your domain, your brand',
+      'Everything in Pro, plus:',
+      'Client-branded PDF reports',
+      '90‑day visual diff archive',
       'Custom monitoring frequency per site',
-      'Automated client reports on your schedule',
-      'Dedicated account manager',
       'API access for custom integrations',
-      'SSO & team management',
     ],
-    cta: 'Talk to us',
+    cta: 'Start Business',
+    convertTo: 'business',
     highlight: false,
     icon: ShieldCheck,
+  },
+  {
+    name: 'Agency',
+    price: 249,
+    description: 'For large agencies that want maximum coverage and branded monitoring as a revenue stream.',
+    scans: '500,000 scans / month',
+    frequencies: 'Every 15m, 30m, Hourly, Daily, Weekly, Monthly',
+    features: [
+      'Everything in Business, plus:',
+      'White-label: your logo, your domain',
+      'Automated client reports on your schedule',
+      'Dedicated account manager',
+      'SSO & team management',
+    ],
+    cta: 'Start Agency',
+    convertTo: 'agency',
+    highlight: false,
+    icon: Star,
   },
 ]
 
@@ -119,7 +136,7 @@ export function Pricing() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-60px' }}
-          className="mx-auto mt-12 grid max-w-5xl gap-5 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6"
+          className="mx-auto mt-12 grid max-w-5xl gap-5 sm:mt-16 sm:grid-cols-2 lg:grid-cols-4 sm:gap-6"
         >
           {plans.map((plan) => {
             const PlanIcon = plan.icon
@@ -135,11 +152,11 @@ export function Pricing() {
                     : 'border-border bg-background shadow-sm'
                 )}
               >
-                {/* Recommended badge */}
+                {/* Most popular badge */}
                 {plan.highlight && (
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                     <Badge className="bg-emerald-600 text-white shadow-sm">
-                      Recommended
+                      Most popular
                     </Badge>
                   </div>
                 )}
@@ -164,28 +181,21 @@ export function Pricing() {
 
                 {/* Price */}
                 <div className="mt-5 flex items-baseline gap-1">
-                  {plan.price !== null ? (
-                    <>
-                      <span className="text-4xl font-extrabold tracking-tight text-foreground">
-                        ${plan.price}
-                      </span>
-                      <span className="text-sm text-muted-foreground">/month</span>
-                    </>
-                  ) : (
-                    <span className="text-4xl font-extrabold tracking-tight text-foreground">
-                      Custom
-                    </span>
-                  )}
+                  <span className="text-4xl font-extrabold tracking-tight text-foreground">
+                    ${plan.price}
+                  </span>
+                  <span className="text-sm text-muted-foreground">/month</span>
                 </div>
 
+                {/* 7-day free trial badge */}
+                <p className="mt-2 text-sm font-semibold text-emerald-700 dark:text-emerald-400">
+                  7‑day free trial
+                </p>
+
                 {/* Stats */}
-                <div className="mt-4 flex gap-4">
-                  <div>
-                    <p className="text-xs font-semibold text-foreground">{plan.sites}</p>
-                  </div>
-                  <div>
-                    <p className="text-xs text-muted-foreground">{plan.frequency}</p>
-                  </div>
+                <div className="mt-4 space-y-1.5">
+                  <p className="text-sm font-semibold text-foreground">{plan.scans}</p>
+                  <p className="text-xs text-muted-foreground">{plan.frequencies}</p>
                 </div>
 
                 {/* Features */}
@@ -203,19 +213,21 @@ export function Pricing() {
 
                 {/* CTA */}
                 <div className="mt-7">
-                  <Button
-                    className={cn(
-                      'w-full',
-                      plan.highlight
-                        ? 'bg-emerald-600 text-white hover:bg-emerald-700'
-                        : ''
-                    )}
-                    variant={plan.highlight ? 'default' : 'outline'}
-                    size="lg"
-                  >
-                    {plan.cta}
-                    {plan.price !== null && <ArrowRight className="ml-1 h-4 w-4" />}
-                  </Button>
+                  <a href={`https://app.pagesentinel.com/signup?plan=Free-Trial&convert_to=${plan.convertTo}`}>
+                    <Button
+                      className={cn(
+                        'w-full',
+                        plan.highlight
+                          ? 'bg-emerald-600 text-white hover:bg-emerald-700'
+                          : ''
+                      )}
+                      variant={plan.highlight ? 'default' : 'outline'}
+                      size="lg"
+                    >
+                      {plan.cta}
+                      <ArrowRight className="ml-1 h-4 w-4" />
+                    </Button>
+                  </a>
                 </div>
               </motion.div>
             )

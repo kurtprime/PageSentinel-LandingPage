@@ -26,7 +26,7 @@ export function FinalCTA() {
             Know what changed, when it changed, and whether it needs action — before your clients find it first.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-            <Link href="/pricing">
+            <a href="https://app.pagesentinel.com/signup?plan=Free-Trial">
               <Button
                 size="lg"
                 className="h-12 bg-emerald-600 px-8 text-base font-semibold text-white hover:bg-emerald-700"
@@ -34,7 +34,7 @@ export function FinalCTA() {
                 Start 7-day free trial
                 <ArrowRight className="ml-1 h-4 w-4" />
               </Button>
-            </Link>
+            </a>
             <Link
               href="/calculator"
               className="flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"

@@ -150,7 +150,7 @@ export default function BlogPage() {
               </p>
             </Link>
             <Link
-              href="/pricing"
+              href="https://app.pagesentinel.com/signup?plan=Free-Trial"
               className="rounded-xl border border-emerald-200 bg-emerald-50/50 dark:bg-emerald-950/20 p-6 hover:shadow-md transition-shadow group"
             >
               <h3 className="font-semibold text-foreground group-hover:text-emerald-600 transition-colors">

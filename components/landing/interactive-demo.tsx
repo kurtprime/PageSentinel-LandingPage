@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -487,7 +486,7 @@ export function InteractiveDemo() {
 
                 {/* Post-demo CTA */}
                 <div className="mt-6">
-                  <Link href="/pricing">
+                  <a href="https://app.pagesentinel.com/signup?plan=Free-Trial">
                     <Button
                       size="lg"
                       className="h-12 px-8 text-base font-semibold bg-emerald-600 text-white hover:bg-emerald-700"
@@ -495,7 +494,7 @@ export function InteractiveDemo() {
                       Start 7-day free trial
                       <ArrowRight className="ml-1 h-4 w-4" />
                     </Button>
-                  </Link>
+                  </a>
                   <p className="mt-3 text-xs text-muted-foreground">
                     No credit card &middot; Add unlimited pages during trial &middot; Cancel anytime
                   </p>

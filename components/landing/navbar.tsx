@@ -62,14 +62,14 @@ export function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
-          <Button variant="ghost" className="font-semibold text-muted-foreground">
+          <a href="https://app.pagesentinel.com/" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold text-muted-foreground h-9 px-4 py-2 transition-colors hover:text-foreground hover:bg-muted">
             Log in
-          </Button>
-          <Link href="/pricing">
+          </a>
+          <a href="https://app.pagesentinel.com/signup?plan=Free-Trial">
             <Button className="bg-emerald-600 text-white hover:bg-emerald-700 font-semibold">
-              Start for free
+              Start free
             </Button>
-          </Link>
+          </a>
         </div>
 
         <Sheet open={open} onOpenChange={setOpen}>
@@ -131,15 +131,18 @@ export function Navbar() {
               {/* CTA buttons */}
               <div className="border-t border-border/40 px-5 py-5">
                 <div className="flex flex-col gap-2.5">
-                  <Button variant="outline" size="lg" className="w-full h-11 font-semibold text-sm">
+                  <a
+                    href="https://app.pagesentinel.com/"
+                    className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md border border-input bg-background text-sm font-semibold h-11 px-4 py-2 w-full transition-colors hover:bg-muted"
+                  >
                     Log in
-                  </Button>
-                  <Link href="/pricing" onClick={() => setOpen(false)}>
+                  </a>
+                  <a href="https://app.pagesentinel.com/signup?plan=Free-Trial" onClick={() => setOpen(false)}>
                     <Button size="lg" className="w-full h-11 bg-emerald-600 text-white hover:bg-emerald-700 font-semibold text-sm">
-                      Start for free
+                      Start free
                       <ArrowRight className="ml-1.5 h-4 w-4" />
                     </Button>
-                  </Link>
+                  </a>
                 </div>
                 <p className="mt-3 text-center text-[11px] text-muted-foreground">
                   7-day free trial · No credit card

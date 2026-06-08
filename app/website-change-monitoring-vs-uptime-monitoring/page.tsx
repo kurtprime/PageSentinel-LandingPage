@@ -304,12 +304,12 @@ export default function ComparisonPage() {
             Start your free 7-day trial. Monitor up to 20 pages. No credit card.
           </p>
           <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-            <Link href="/pricing">
+            <a href="https://app.pagesentinel.com/signup?plan=Free-Trial">
               <Button size="lg" className="bg-emerald-600 text-white hover:bg-emerald-700">
                 Start free trial
                 <ArrowRight className="ml-1 h-4 w-4" />
               </Button>
-            </Link>
+            </a>
             <Link href="/calculator" className="text-sm font-medium text-muted-foreground hover:text-foreground">
               Calculate your revenue at risk →
             </Link>

@@ -325,13 +325,13 @@ export function BlogPostContent({
         <p className="mt-1 text-sm text-emerald-700/80 dark:text-emerald-400/80">
           Start your free 7-day trial — no credit card. Monitor all your client sites silently.
         </p>
-        <Link
-          href="/pricing"
+        <a
+          href="https://app.pagesentinel.com/signup?plan=Free-Trial"
           className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-600 hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300"
         >
           Start free trial
           <ArrowRight className="h-3.5 w-3.5" />
-        </Link>
+        </a>
       </motion.div>
 
       {/* Back to top button */}

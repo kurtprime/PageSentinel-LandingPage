@@ -20,7 +20,8 @@ const plans = [
       'Baseline + before/after evidence',
       'Noise reduction to cut false alarms',
     ],
-    cta: 'Start 7-day free trial',
+    cta: 'Start Starter',
+    convertTo: 'starter',
     highlight: false,
     icon: Zap,
   },
@@ -37,7 +38,8 @@ const plans = [
       '60-day change history retention',
       'Priority email support',
     ],
-    cta: 'Start 7-day free trial',
+    cta: 'Start Pro',
+    convertTo: 'pro',
     highlight: true,
     icon: TrendingUp,
   },
@@ -54,7 +56,8 @@ const plans = [
       'AI review for significant changes',
       'Custom frequency per URL',
     ],
-    cta: 'Start 7-day free trial',
+    cta: 'Start Business',
+    convertTo: 'business',
     highlight: false,
     icon: Building2,
   },
@@ -72,7 +75,8 @@ const plans = [
       'Dedicated account manager',
       'SSO and team management',
     ],
-    cta: 'Start 7-day free trial',
+    cta: 'Start Agency',
+    convertTo: 'agency',
     highlight: false,
     icon: Zap,
   },
@@ -187,19 +191,21 @@ export function PricingCards() {
               </ul>
 
               <div className="mt-7">
-                <Button
-                  className={cn(
-                    'w-full',
-                    plan.highlight
-                      ? 'bg-emerald-600 text-white hover:bg-emerald-700'
-                      : ''
-                  )}
-                  variant={plan.highlight ? 'default' : 'outline'}
-                  size="lg"
-                >
-                  {plan.cta}
-                  <ArrowRight className="ml-1 h-4 w-4" />
-                </Button>
+                <a href={`https://app.pagesentinel.com/signup?plan=Free-Trial&convert_to=${plan.convertTo}`}>
+                  <Button
+                    className={cn(
+                      'w-full',
+                      plan.highlight
+                        ? 'bg-emerald-600 text-white hover:bg-emerald-700'
+                        : ''
+                    )}
+                    variant={plan.highlight ? 'default' : 'outline'}
+                    size="lg"
+                  >
+                    {plan.cta}
+                    <ArrowRight className="ml-1 h-4 w-4" />
+                  </Button>
+                </a>
               </div>
             </motion.div>
           )

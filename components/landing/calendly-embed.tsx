@@ -19,7 +19,7 @@ export function CalendlyEmbed() {
           </p>
           <div className="mt-6 flex justify-center">
             <a
-              href="/pricing"
+              href="https://app.pagesentinel.com/signup?plan=Free-Trial"
               className="inline-flex items-center gap-1 text-sm font-medium text-emerald-600 hover:text-emerald-700 transition-colors"
             >
               Or start a 7-day free trial →

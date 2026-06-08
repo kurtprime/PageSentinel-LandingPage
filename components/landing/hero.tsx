@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { motion, useReducedMotion, useAnimation } from 'framer-motion'
 import Image from 'next/image'
-import Link from 'next/link'
 import { Calendar, Clock, Eye, ScanEye, ShieldCheck, Zap } from 'lucide-react'
 
 /* ──────────────────────────────────────────
@@ -199,11 +198,14 @@ export function Hero() {
       {/* 4. Scanning Beam */}
       {!prefersReduced && isDesktop && (
         <motion.div
-          className="absolute left-0 right-0 h-px z-0 pointer-events-none bg-gradient-to-r from-transparent via-emerald-500/80 to-transparent shadow-[0_0_30px_6px_rgba(5,150,105,0.35)]"
+          className="absolute left-0 right-0 z-0 pointer-events-none"
           initial={{ top: '0%' }}
           animate={{ top: '100%' }}
           transition={{ duration: 8, repeat: Infinity, ease: "linear", delay: 2 }}
-        />
+        >
+          <div className="absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-emerald-500/80 to-transparent" />
+          <div className="absolute left-0 right-0 h-8 -top-4 bg-gradient-to-r from-transparent via-emerald-500/15 to-transparent blur-md" />
+        </motion.div>
       )}
 
       <div className="relative mx-auto max-w-6xl px-4 pb-16 pt-16 sm:px-6 sm:pt-20 md:pt-28 md:pb-24">
@@ -270,14 +272,14 @@ export function Hero() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="mt-5 flex flex-col items-center gap-3 sm:flex-row sm:gap-4 md:justify-start"
             >
-              <Link href="/pricing" aria-label="Start free trial">
+              <a href="https://app.pagesentinel.com/signup?plan=Free-Trial" aria-label="Start free trial">
                 <Button
                   size="lg"
                   className="h-14 px-10 text-lg font-semibold bg-emerald-600 text-white hover:bg-emerald-700 shadow-lg shadow-emerald-600/25 hover:shadow-xl hover:shadow-emerald-600/30 transition-all hover:scale-105"
                 >
-                  Start for free
+                  Start free
                 </Button>
-              </Link>
+              </a>
               <a href="#book-demo" aria-label="Book a demo">
                 <Button
                   variant="outline"

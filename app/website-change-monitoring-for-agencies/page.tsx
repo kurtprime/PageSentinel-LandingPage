@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import Link from "next/link";
 import { ArrowRight, Check, Building2 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -165,12 +164,12 @@ export default function AgenciesPage() {
             7-day free trial. Add unlimited pages. No credit card required.
           </p>
           <div className="mt-6">
-            <Link href="/pricing">
+            <a href="https://app.pagesentinel.com/signup?plan=Free-Trial">
               <Button size="lg" className="bg-emerald-600 text-white hover:bg-emerald-700">
                 Start free trial
                 <ArrowRight className="ml-1 h-4 w-4" />
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
