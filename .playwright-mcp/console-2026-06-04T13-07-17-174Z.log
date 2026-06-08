@@ -1,0 +1,6 @@
+[     578ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[     696ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[    1009ms] [ERROR] Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:3318
+[   16701ms] [WARNING] Datadog Browser SDK: No storage available for session. We will not send any data. @ https://assets.calendly.com/assets/booking/js/booking-60c0e2e7a.js:77
+[   81407ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[   81765ms] [LOG] [Fast Refresh] done in 420ms @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477

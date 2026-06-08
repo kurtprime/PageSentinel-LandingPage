@@ -1,0 +1,434 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "PageSentinel PageSentinel" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "PageSentinel" [ref=e5]
+        - generic [ref=e6]: PageSentinel
+      - button "Toggle menu" [ref=e7]:
+        - img
+        - generic [ref=e8]: Toggle menu
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - img "AI bot holding a magnifying glass — PageSentinel monitors your website so you don't have to" [ref=e20]
+          - generic [ref=e21]:
+            - generic [ref=e23]:
+              - img
+              - text: Website Change Monitoring
+            - heading "Stop finding broken pages after your customers do — finally know what changed and why." [level=1] [ref=e24]
+            - paragraph [ref=e25]: Catch broken layouts, defacement, and unauthorized content changes on any public URL. Get a plain-English summary of exactly what happened — not just a raw diff. Stop finding out from your customers.
+            - generic [ref=e26]:
+              - link "Start free trial" [ref=e27] [cursor=pointer]:
+                - /url: /pricing
+                - button "Start for free" [ref=e28]
+              - link "Book a demo" [ref=e29] [cursor=pointer]:
+                - /url: "#book-demo"
+                - button "Book a demo" [ref=e30]:
+                  - img
+                  - text: Book a demo
+            - paragraph [ref=e32]: 7-day free trial · No credit card · Monitor up to 20 pages
+        - generic [ref=e34]:
+          - generic [ref=e40]: LIVE — Monitoring 48 pages now
+          - generic [ref=e42]:
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - generic [ref=e64]: BROKEN LAYOUT
+                - generic [ref=e74]:
+                  - generic [ref=e82]:
+                    - text: 47%
+                    - text: DIFF
+                  - generic [ref=e83]: CONTENT CHANGED
+                - generic [ref=e84]:
+                  - generic [ref=e92]: 🖼
+                  - generic [ref=e93]: BROKEN IMAGE
+              - generic [ref=e95]:
+                - generic [ref=e96]: DEFACEMENT DETECTED
+                - generic [ref=e98]: Unauthorized content injected by third party.
+                - generic [ref=e100]: CRITICAL
+            - generic:
+              - generic: Scanning...
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - img [ref=e127]
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: 0M+
+              - paragraph [ref=e136]: Pages Scanned
+          - generic [ref=e137]:
+            - img [ref=e139]
+            - generic [ref=e142]:
+              - paragraph [ref=e143]: 0.0%
+              - paragraph [ref=e144]: Detection Rate
+          - generic [ref=e145]:
+            - img [ref=e147]
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: On-demand
+              - paragraph [ref=e151]: Scan Frequency
+          - generic [ref=e152]:
+            - img [ref=e154]
+            - generic [ref=e157]:
+              - paragraph [ref=e158]: 24/7
+              - paragraph [ref=e159]: Continuous Monitoring
+      - generic [ref=e161]:
+        - generic [ref=e163]:
+          - img
+          - text: Before & After
+        - heading "You shouldn't be the last to know your pages broke" [level=2] [ref=e165]
+        - 'img "Side-by-side comparison: manual page checking vs. PageSentinel''s automated scanning dashboard" [ref=e167]'
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - generic:
+              - img
+            - text: Without PageSentinel
+            - list [ref=e171]:
+              - listitem [ref=e172]:
+                - img [ref=e174]
+                - paragraph [ref=e177]: Log into each client site manually — every morning, before coffee
+              - listitem [ref=e178]:
+                - img [ref=e180]
+                - paragraph [ref=e183]: Spot-check a handful of pages and pray the other 40 are fine
+              - listitem [ref=e184]:
+                - img [ref=e186]
+                - paragraph [ref=e189]: Learn about a broken layout from a panicked client call — three days after it happened
+              - listitem [ref=e190]:
+                - img [ref=e192]
+                - paragraph [ref=e195]: No snapshot of what the page looked like before — no way to prove what changed or when
+              - listitem [ref=e196]:
+                - img [ref=e198]
+                - paragraph [ref=e201]: Spend evenings undoing damage you could have caught in seconds
+          - generic [ref=e202]:
+            - generic:
+              - img
+            - generic [ref=e203]:
+              - generic [ref=e204]: With PageSentinel
+              - generic [ref=e207]: ACTIVE
+            - list [ref=e208]:
+              - listitem [ref=e209]:
+                - img [ref=e211]
+                - paragraph [ref=e213]: Automatic scans cover every page, around the clock — zero manual work
+              - listitem [ref=e214]:
+                - img [ref=e216]
+                - paragraph [ref=e218]: Visual diffs catch layout breaks instantly, not just error codes
+              - listitem [ref=e219]:
+                - img [ref=e221]
+                - paragraph [ref=e223]: Plain-English alerts tell you what changed, the moment it happens
+              - listitem [ref=e224]:
+                - img [ref=e226]
+                - paragraph [ref=e228]: Timestamped audit trail proves exactly when and what changed — send it to the client
+              - listitem [ref=e229]:
+                - img [ref=e231]
+                - paragraph [ref=e233]: Know before your customers do — even if it breaks at 3 AM
+        - generic [ref=e234]:
+          - img [ref=e236]
+          - paragraph [ref=e238]: PageSentinel scans so you don't have to. Know what changed — before anyone asks.
+      - generic [ref=e239]:
+        - img
+        - generic [ref=e240]:
+          - generic [ref=e242]:
+            - heading "Every day your pages go unchecked is a day something breaks" [level=2] [ref=e243]
+            - paragraph [ref=e244]: Defacement, update mistakes, and unauthorized edits don't announce themselves. Here's what you're up against — and what PageSentinel catches.
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - img "Defacement illustration" [ref=e249]
+                - img [ref=e251]
+                - heading "Defacement" [level=3] [ref=e253]
+                - paragraph [ref=e254]: Hackers inject spam links, redirects, or malicious scripts into your pages. Every hour it sits undetected, your reputation erodes.
+              - generic [ref=e255]:
+                - img "Mistakes illustration" [ref=e257]
+                - img [ref=e259]
+                - heading "Mistakes" [level=3] [ref=e261]
+                - paragraph [ref=e262]: A plugin update, a wrong click — suddenly your layout is broken, content is missing, or your checkout form stopped working.
+            - generic [ref=e265]:
+              - img "Silent changes illustration" [ref=e267]
+              - img [ref=e269]
+              - heading "Silent changes" [level=3] [ref=e272]
+              - paragraph [ref=e273]: Pricing tables shift, policy pages get edited, and redirects appear with no warning. These are the changes your clients notice first.
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - heading "Everything you need to catch changes before your customers do" [level=2] [ref=e277]
+          - paragraph [ref=e278]: PageSentinel monitors your site from the outside — no plugins, no scripts, no access needed. Every detected change comes with a plain-English summary and a visual diff.
+        - generic [ref=e279]:
+          - generic [ref=e280]:
+            - img "Before and after comparison showing a broken website layout detected and corrected" [ref=e282]
+            - img [ref=e284]
+            - heading "Visual website monitoring" [level=3] [ref=e287]
+            - paragraph [ref=e288]: Catch broken layouts, hidden sections, and corrupted page designs before they cost you a client. Screenshot diffs show exactly what shifted.
+          - generic [ref=e289]:
+            - img "Pricing table with a highlighted content change detected on a website page" [ref=e291]
+            - img [ref=e293]
+            - heading "Website content monitoring" [level=3] [ref=e296]
+            - paragraph [ref=e297]: Know the moment text, pricing, or policies change — without manually checking pages. Catch edits that affect revenue before anyone notices.
+          - generic [ref=e298]:
+            - img "Code diff view showing injected redirect code detected on a checkout page" [ref=e300]
+            - img [ref=e302]
+            - heading "Structural change detection" [level=3] [ref=e305]
+            - paragraph [ref=e306]: Spot HTML changes, redirect injections, and broken scripts that silently kill your forms and conversion paths. See the exact code that changed.
+          - generic [ref=e307]:
+            - img "Timeline dashboard showing detected website changes with severity badges" [ref=e309]
+            - img [ref=e311]
+            - heading "Audit trail and alerts" [level=3] [ref=e315]
+            - paragraph [ref=e316]: Prove exactly what changed and when — with timestamped history and visual diffs. Send the report to your client and look like a hero.
+      - generic [ref=e318]:
+        - generic [ref=e319]:
+          - heading "What changes when you catch breaks before your clients do" [level=2] [ref=e320]
+          - paragraph [ref=e321]: Every row below is a real agency scenario. See the difference PageSentinel makes.
+        - generic [ref=e322]:
+          - generic [ref=e323]:
+            - generic [ref=e324]: Before PageSentinel
+            - generic [ref=e325]: After PageSentinel
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - img [ref=e329]
+              - paragraph [ref=e331]: "Client WhatsApp at 11 p.m.: \"Our homepage looks weird\""
+            - generic [ref=e332]:
+              - img [ref=e334]
+              - paragraph [ref=e336]: "Slack alert at 11:01 p.m.: \"3 sites affected by plugin CSS break — visual diffs attached for each\""
+          - generic [ref=e337]:
+            - generic [ref=e338]:
+              - img [ref=e340]
+              - paragraph [ref=e342]: Manual spot-checks on 40+ sites hoping nothing broke — and missing half the issues anyway
+            - generic [ref=e343]:
+              - img [ref=e345]
+              - paragraph [ref=e347]: One dashboard. Every client domain covered. Changes caught as they happen, not when someone complains.
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - img [ref=e351]
+              - paragraph [ref=e354]: Rebuilding trust after a defacement went unnoticed for 48 hours
+            - generic [ref=e355]:
+              - img [ref=e357]
+              - paragraph [ref=e360]: Defacement caught in minutes, client never saw it, you look proactive instead of reactive.
+          - generic [ref=e361]:
+            - generic [ref=e362]:
+              - img [ref=e364]
+              - paragraph [ref=e367]: Charging clients a retainer with no proof of the proactive work you actually do
+            - generic [ref=e368]:
+              - img [ref=e370]
+              - paragraph [ref=e373]: Monthly Site Health Snapshots show every client exactly what you monitor and what you caught — retainer justified.
+      - generic [ref=e375]:
+        - generic [ref=e376]:
+          - heading "See how PageSentinel catches breaks before your clients call" [level=2] [ref=e377]
+          - paragraph [ref=e378]: A 2-minute walkthrough of the problem, the product, and how agencies stop panicked client calls for good.
+        - button "Watch the PageSentinel explainer" [ref=e386] [cursor=pointer]:
+          - img "Watch the PageSentinel explainer" [ref=e387]
+          - img [ref=e390]
+      - generic [ref=e393]:
+        - generic [ref=e394]:
+          - generic [ref=e395]:
+            - img
+            - text: Interactive Demo
+          - heading "See PageSentinel catch a broken page — right now" [level=2] [ref=e396]
+          - paragraph [ref=e397]: Human-readable summaries, visual diffs, page history, and alerts that only fire when something actually changed.
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - generic [ref=e406]: bakersfield-dental.com/wp-admin
+            - button "Simulate Elementor Update" [ref=e408]:
+              - img
+              - text: Simulate Elementor Update
+          - generic [ref=e410]:
+            - img [ref=e412]
+            - heading "Watch PageSentinel catch a broken page in seconds" [level=3] [ref=e414]
+            - paragraph [ref=e415]: Click "Simulate Elementor Update" to watch a plugin update break a client's homepage — and see PageSentinel detect it before anyone notices.
+        - generic [ref=e416]:
+          - generic [ref=e417]:
+            - generic [ref=e418]:
+              - img [ref=e419]
+              - img [ref=e421]
+              - img [ref=e423]
+              - img [ref=e425]
+              - img [ref=e427]
+            - blockquote [ref=e429]: “We manage 67 WordPress sites for local businesses. After a major Elementor update, 14 client homepages lost their hero sections. PageSentinel caught all 14 within 30 minutes, with screenshot proof. We rolled back before a single client noticed.”
+            - generic [ref=e430]:
+              - generic [ref=e431]: D
+              - generic [ref=e432]:
+                - paragraph [ref=e433]: David L.
+                - paragraph [ref=e434]: Agency Ops Lead
+          - generic [ref=e435]:
+            - generic [ref=e436]:
+              - img [ref=e437]
+              - img [ref=e439]
+              - img [ref=e441]
+              - img [ref=e443]
+              - img [ref=e445]
+            - blockquote [ref=e447]: “A client's site got injected with pharma spam links via a vulnerable plugin. PageSentinel detected the new outbound links and alerted us. We cleaned it the same morning. The client still doesn't know it happened — that's the value.”
+            - generic [ref=e448]:
+              - generic [ref=e449]: M
+              - generic [ref=e450]:
+                - paragraph [ref=e451]: Maria G.
+                - paragraph [ref=e452]: WordPress Agency Owner
+        - paragraph [ref=e455]: Built by a former agency developer who spent too many weekends firefighting client sites. PageSentinel exists because no agency should learn about a broken client site from the client themselves.
+      - generic [ref=e457]:
+        - generic [ref=e458]:
+          - heading "Start monitoring in 3 minutes" [level=2] [ref=e459]
+          - paragraph [ref=e460]: Paste your URLs, pick a scan frequency, and catch changes before your customers do — all from one dashboard.
+        - generic [ref=e461]:
+          - generic [ref=e462]:
+            - generic [ref=e463]: "1"
+            - heading "Add URLs" [level=3] [ref=e464]
+            - paragraph [ref=e465]: Paste the pages you care about. Group by client or project. No plugins, no access — monitoring starts from the outside.
+            - generic [ref=e467]:
+              - generic [ref=e468]:
+                - generic [ref=e469]:
+                  - img [ref=e470]
+                  - textbox "Paste a URL..." [ref=e473]
+                - button "Add" [disabled] [ref=e474]:
+                  - img [ref=e475]
+                  - text: Add
+              - generic [ref=e476]:
+                - generic [ref=e481]: client-site.com
+                - generic [ref=e486]: my-agency.com
+          - generic [ref=e487]:
+            - generic [ref=e488]: "2"
+            - heading "Choose frequency" [level=3] [ref=e489]
+            - paragraph [ref=e490]: Set a default cadence, then give critical pages more frequent scans. Run on demand when you need an answer now.
+            - generic [ref=e493]:
+              - button "5m" [ref=e494]
+              - button "15m" [ref=e495]
+              - button "1h" [ref=e496]
+              - button "6h" [ref=e497]
+              - button "24h" [ref=e498]
+          - generic [ref=e499]:
+            - generic [ref=e500]: "3"
+            - heading "Get alerted" [level=3] [ref=e501]
+            - paragraph [ref=e502]: Dashboard, Slack, webhook, or SMS. Know what changed the moment it happens — with a plain-English summary and visual diff.
+            - button "Simulate alert" [ref=e505]:
+              - img [ref=e506]
+              - text: Simulate alert
+        - paragraph [ref=e508]: Add your first URLs and see a change report in minutes — no setup, no plugins.
+      - generic [ref=e510]:
+        - generic [ref=e511]:
+          - heading "Built for anyone whose revenue depends on their pages" [level=2] [ref=e512]
+          - paragraph [ref=e513]: Same monitoring engine, different problems. Here's how real teams use PageSentinel to stop finding out from their customers.
+        - generic [ref=e514]:
+          - generic [ref=e515]:
+            - generic [ref=e516]:
+              - img [ref=e518]
+              - heading "Agencies" [level=3] [ref=e522]
+            - paragraph [ref=e523]: You manage dozens of client sites. A plugin update breaks 14 homepages on a Tuesday. PageSentinel catches every one before a single client picks up the phone.
+            - generic [ref=e524]:
+              - paragraph [ref=e525]: "Example alert:"
+              - paragraph [ref=e526]: "Homepage changed: \"Added redirect rule\" — Header modified, CTA button text updated, Body OK."
+          - generic [ref=e527]:
+            - generic [ref=e528]:
+              - img [ref=e530]
+              - heading "WordPress Owners" [level=3] [ref=e533]
+            - paragraph [ref=e534]: Your site runs on plugins that update automatically. One bad update and your layout is gone, your redirects are hijacked, and you won't notice until a customer tells you.
+            - generic [ref=e535]:
+              - paragraph [ref=e536]: "Example alert:"
+              - paragraph [ref=e537]: "Checkout page changed: \"Header layout broken\" — Elementor 3.21 update caused CSS conflict."
+          - generic [ref=e538]:
+            - generic [ref=e539]:
+              - img [ref=e541]
+              - heading "Ecommerce" [level=3] [ref=e545]
+            - paragraph [ref=e546]: Every hour your checkout or pricing page is broken is revenue you never get back. Catch layout shifts, price changes, and broken forms before they cost you sales.
+            - generic [ref=e547]:
+              - paragraph [ref=e548]: "Example alert:"
+              - paragraph [ref=e549]: "Pricing table changed: \"Monthly price updated\" — $29 → $19 detected on /pricing page."
+          - generic [ref=e550]:
+            - generic [ref=e551]:
+              - img [ref=e553]
+              - heading "Compliance & Reputation" [level=3] [ref=e555]
+            - paragraph [ref=e556]: Terms of service, privacy policies, regulatory pages — if these change without your knowledge, the liability is yours. Keep an audit trail for every edit, every time.
+            - generic [ref=e557]:
+              - paragraph [ref=e558]: "Example alert:"
+              - paragraph [ref=e559]: "Terms page changed: \"Refund policy updated\" — Paragraph removed, new section added."
+      - generic [ref=e561]:
+        - generic [ref=e562]:
+          - generic [ref=e563]:
+            - img
+            - text: Revenue at Risk
+          - heading "See what undetected changes are really costing you" [level=2] [ref=e564]
+          - paragraph [ref=e565]: A conservative estimate for a small team. Adjust the numbers to see your actual exposure.
+        - generic [ref=e566]:
+          - generic [ref=e567]:
+            - paragraph [ref=e568]: 20 pages monitored × 3 incidents/year × $500 lost per incident
+            - paragraph [ref=e569]: $30,000/year at risk
+            - paragraph [ref=e570]: That's for a small setup. Undetected changes add up fast.
+          - link "Calculate your real number" [ref=e572] [cursor=pointer]:
+            - /url: /calculator
+            - button "Calculate your real number" [ref=e573]:
+              - text: Calculate your real number
+              - img
+      - generic [ref=e576]:
+        - heading "See how PageSentinel fits your workflow" [level=2] [ref=e577]
+        - paragraph [ref=e578]: Book a 20‑minute call. We'll walk through your current monitoring setup and show you what you're missing.
+        - link "Or start a 7-day free trial →" [ref=e580] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e585]:
+        - heading "Stop finding out from your customers. First week is free." [level=2] [ref=e586]
+        - paragraph [ref=e587]: Know what changed, when it changed, and whether it needs action — before your clients find it first.
+        - generic [ref=e588]:
+          - link "Start 7-day free trial" [ref=e589] [cursor=pointer]:
+            - /url: /pricing
+            - button "Start 7-day free trial" [ref=e590]:
+              - text: Start 7-day free trial
+              - img
+          - link "Calculate your revenue at risk" [ref=e591] [cursor=pointer]:
+            - /url: /calculator
+            - img [ref=e592]
+            - text: Calculate your revenue at risk
+        - paragraph [ref=e595]: No credit card · Add unlimited pages during trial · Cancel anytime
+  - contentinfo [ref=e596]:
+    - generic [ref=e597]:
+      - generic [ref=e598]:
+        - generic [ref=e599]:
+          - link "PageSentinel" [ref=e600] [cursor=pointer]:
+            - /url: /
+            - img [ref=e602]
+            - generic [ref=e604]: PageSentinel
+          - paragraph [ref=e605]: Website change monitoring for agencies, site owners, and teams. Know what changed — before your customers do.
+          - generic [ref=e606]:
+            - img [ref=e607]
+            - generic [ref=e610]: Monitors any public website
+          - generic [ref=e611]:
+            - paragraph [ref=e612]: Website monitoring tips & product updates
+            - generic [ref=e613]:
+              - generic [ref=e614]:
+                - img [ref=e615]
+                - textbox "your@email.com" [ref=e618]
+              - button "Join" [ref=e619]
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - heading "Product" [level=4] [ref=e622]
+            - list [ref=e623]:
+              - listitem [ref=e624]:
+                - link "How It Works" [ref=e625] [cursor=pointer]:
+                  - /url: /#how-it-works
+              - listitem [ref=e626]:
+                - link "Pricing" [ref=e627] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e628]:
+                - link "Calculator" [ref=e629] [cursor=pointer]:
+                  - /url: /calculator
+          - generic [ref=e630]:
+            - heading "Company" [level=4] [ref=e631]
+            - list [ref=e632]:
+              - listitem [ref=e633]:
+                - link "About" [ref=e634] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e635]:
+                - link "Blog" [ref=e636] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=e637]:
+                - link "Contact" [ref=e638] [cursor=pointer]:
+                  - /url: mailto:hello@pagesentinel.io
+          - generic [ref=e639]:
+            - heading "Legal" [level=4] [ref=e640]
+            - list [ref=e641]:
+              - listitem [ref=e642]:
+                - link "Privacy Policy" [ref=e643] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e644]:
+                - link "Terms of Service" [ref=e645] [cursor=pointer]:
+                  - /url: "#"
+      - generic [ref=e646]:
+        - paragraph [ref=e647]:
+          - img [ref=e648]
+          - text: © 2026 PageSentinel. All rights reserved.
+        - generic [ref=e650]:
+          - img [ref=e651]
+          - generic [ref=e654]: We personally onboard every agency
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e660] [cursor=pointer]:
+    - img [ref=e661]

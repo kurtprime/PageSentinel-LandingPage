@@ -1,0 +1,19 @@
+[    1404ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[    1538ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[    2368ms] [ERROR] Error: <line> attribute y1: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <line> attribute y2: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <line> attribute y1: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <line> attribute y2: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    2369ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_07.f3qy._.js:4011
+[    9886ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[   10009ms] [LOG] [Fast Refresh] done in 227ms @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[   18518ms] [WARNING] Datadog Browser SDK: No storage available for session. We will not send any data. @ https://assets.calendly.com/assets/booking/js/booking-eb90e0a5a.js:77

@@ -1,0 +1,54 @@
+[     158ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3456/_next/static/chunks/0z~i_next_dist_0jtfmts._.js:1226
+[    1070ms] [ERROR] ./app/globals.css:4365:17
+Parsing CSS source code failed
+  4363 |   }
+  4364 |   .\[\&\:\:-webkit-\.\.\.\]\:appearance-none {
+> 4365 |     &::-webkit-... {
+       |                 ^
+  4366 |       appearance: none;
+  4367 |     }
+  4368 |   }
+
+Expected identifier in class selector, got Delim('.')
+
+Generated code of PostCSS transform of file content of app/globals.css:
+./app/globals.css:4365:17
+  4363 |   }
+  4364 |   .\[\&\:\:-webkit-\.\.\.\]\:appearance-none {
+> 4365 |     &::-webkit-... {
+       |                 ^
+  4366 |       appearance: none;
+  4367 |     }
+  4368 |   }
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3456/_next/static/chunks/0z~i_next_dist_0jtfmts._.js:1945
+[    1108ms] [ERROR] ./app/globals.css:4365:17
+Parsing CSS source code failed
+  4363 |   }
+  4364 |   .\[\&\:\:-webkit-\.\.\.\]\:appearance-none {
+> 4365 |     &::-webkit-... {
+       |                 ^
+  4366 |       appearance: none;
+  4367 |     }
+  4368 |   }
+
+Expected identifier in class selector, got Delim('.')
+
+Generated code of PostCSS transform of file content of app/globals.css:
+./app/globals.css:4365:17
+  4363 |   }
+  4364 |   .\[\&\:\:-webkit-\.\.\.\]\:appearance-none {
+> 4365 |     &::-webkit-... {
+       |                 ^
+  4366 |       appearance: none;
+  4367 |     }
+  4368 |   }
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3456/_next/static/chunks/0z~i_next_dist_0jtfmts._.js:1945
+[    1132ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3456/:0

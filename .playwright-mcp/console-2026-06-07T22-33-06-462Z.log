@@ -1,0 +1,18 @@
+[    4209ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[    4386ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[    4634ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[    4781ms] [LOG] [Fast Refresh] done in 299ms @ http://localhost:3001/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[    4946ms] [ERROR] Error: <line> attribute y1: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4946ms] [ERROR] Error: <line> attribute y2: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4946ms] [ERROR] Error: <line> attribute y1: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4946ms] [ERROR] Error: <line> attribute y2: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4946ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4946ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4947ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4947ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4947ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4947ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4947ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4947ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4947ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[    4947ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3001/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011

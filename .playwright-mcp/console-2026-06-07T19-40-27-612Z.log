@@ -1,0 +1,30 @@
+[     281ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[     365ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[     723ms] [ERROR] Error: <line> attribute y1: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <line> attribute y2: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <line> attribute y1: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <line> attribute y2: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cx: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[     724ms] [ERROR] Error: <circle> attribute cy: Expected length, "undefined". @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_02si8wv._.js:4011
+[   20560ms] [ERROR] `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:3318
+[   20560ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[   20564ms] [ERROR] `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:3318
+[   20564ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[   22799ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
+[   22896ms] [LOG] [Fast Refresh] done in 200ms @ http://localhost:3000/_next/static/chunks/0z~i_next_dist_080cxwf._.js:2477
