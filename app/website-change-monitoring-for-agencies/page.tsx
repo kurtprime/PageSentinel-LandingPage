@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description:
       "Monitor 20—200+ client sites from a single dashboard. Catch broken layouts, plugin update damage, and unauthorized changes before clients notice.",
     type: "article",
-    images: [{ url: "https://pagesentinel.io/assets/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://pagesentinel.io/assets/ai-image.webp", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",

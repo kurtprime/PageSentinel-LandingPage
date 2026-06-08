@@ -1,16 +1,22 @@
+import dynamic from 'next/dynamic'
+import { Suspense } from 'react'
 import { Hero } from '@/components/landing/hero'
 import { WhyExists } from '@/components/landing/why-exists'
 import { ProblemCategories } from '@/components/landing/problem-categories'
 import { FeaturesExplained } from '@/components/landing/features-explained'
 import { BeforeAfter } from '@/components/landing/before-after'
 import { ExplainerVideo } from '@/components/landing/explainer-video'
-import { DemoSection } from '@/components/landing/demo-section'
 import { HowItWorks } from '@/components/landing/how-it-works'
 import { UseCases } from '@/components/landing/use-cases'
 import { CalculatorTeaser } from '@/components/landing/calculator-teaser'
-import { CalendlyEmbed } from '@/components/landing/calendly-embed'
 import { HomeFAQ } from '@/components/landing/home-faq'
 import { FinalCTA } from '@/components/landing/final-cta'
+import { CalendlyEmbedLazy } from '@/components/landing/calendly-embed-lazy'
+
+const DemoSection = dynamic(
+  () => import('@/components/landing/demo-section').then((m) => ({ default: m.DemoSection })),
+  { ssr: true, loading: () => <div className="h-96 rounded-xl bg-muted/20 animate-pulse" /> }
+)
 
 export default function Home() {
   return (
@@ -37,11 +43,13 @@ export default function Home() {
       <FeaturesExplained />
       <BeforeAfter />
       <ExplainerVideo />
-      <DemoSection />
+      <Suspense fallback={<div className="h-96 rounded-xl bg-muted/20 animate-pulse" />}>
+        <DemoSection />
+      </Suspense>
       <HowItWorks />
       <UseCases />
       <CalculatorTeaser />
-      <CalendlyEmbed />
+      <CalendlyEmbedLazy />
       <HomeFAQ />
       <FinalCTA />
     </div>

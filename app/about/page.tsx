@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Built by a former agency developer who was tired of getting panicked calls at 11 p.m. Meet the team behind PageSentinel.",
     type: "website",
-    images: [{ url: "https://pagesentinel.io/assets/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://pagesentinel.io/assets/ai-image.webp", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",

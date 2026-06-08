@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/website-change-monitoring-vs-uptime-monitoring`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/what-is-website-change-monitoring`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/website-change-monitoring-for-agencies`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/website-change-monitoring-for-wordpress`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/website-change-monitoring-for-ecommerce`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
   const blogPosts: MetadataRoute.Sitemap = [];
@@ -22,9 +24,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const files = fs.readdirSync(contentDir).filter((f) => f.endsWith(".mdx"));
     for (const file of files) {
       const slug = file.replace(/\.mdx$/, "");
+      const filePath = path.join(contentDir, file);
+      const { mtime } = fs.statSync(filePath);
       blogPosts.push({
         url: `${baseUrl}/blog/${slug}`,
-        lastModified: new Date(),
+        lastModified: mtime,
         changeFrequency: "monthly" as const,
         priority: 0.7,
       });

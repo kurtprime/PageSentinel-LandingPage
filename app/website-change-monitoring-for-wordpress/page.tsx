@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description:
       "WordPress sites break when plugins update. Catch broken layouts, missing content, and redirect injections before your visitors or clients notice.",
     type: "article",
-    images: [{ url: "https://pagesentinel.io/assets/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://pagesentinel.io/assets/ai-image.webp", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",

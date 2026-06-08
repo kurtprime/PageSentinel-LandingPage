@@ -100,6 +100,14 @@ export function Hero() {
   const reticleControls = useAnimation()
   const reticleIndexRef = useRef(0)
   const loopAbortRef = useRef(false)
+  const [isDesktop, setIsDesktop] = useState(true)
+
+  useEffect(() => {
+    const check = () => setIsDesktop(window.innerWidth >= 640)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
 
   const runReticleLoop = useCallback(async (controls: ReturnType<typeof useAnimation>) => {
     // eslint-disable-next-line no-constant-condition
@@ -141,11 +149,14 @@ export function Hero() {
   }, [])
 
   useEffect(() => {
-    if (prefersReduced) return
-    loopAbortRef.current = false
-    runReticleLoop(reticleControls)
+    if (prefersReduced || !isDesktop) return
+    const timer = setTimeout(() => {
+      loopAbortRef.current = false
+      runReticleLoop(reticleControls)
+    }, 2000)
     return () => {
       loopAbortRef.current = true
+      clearTimeout(timer)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [prefersReduced])
@@ -153,7 +164,7 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden border-b border-border/40">
       {/* 1. Aurora Orbs */}
-      {prefersReduced ? (
+      {(prefersReduced || !isDesktop) ? (
         <>
           <div className="absolute top-0 -left-1/4 h-[600px] w-[600px] bg-gradient-to-br from-emerald-200/40 via-teal-300/20 to-transparent rounded-full blur-[120px] -z-10" />
           <div className="absolute top-1/3 -right-1/4 h-[500px] w-[500px] bg-gradient-to-tl from-teal-200/30 via-emerald-100/25 to-transparent rounded-full blur-[100px] -z-10" />
@@ -162,12 +173,12 @@ export function Hero() {
         <>
           <motion.div
             animate={{ x: ["-15%", "15%", "-15%"], y: ["-5%", "10%", "-5%"] }}
-            transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
+            transition={{ duration: 25, repeat: Infinity, ease: "linear", delay: 1.5 }}
             className="absolute top-0 -left-1/4 h-[600px] w-[600px] bg-gradient-to-br from-emerald-200/40 via-teal-300/20 to-transparent rounded-full blur-[120px] -z-10"
           />
           <motion.div
             animate={{ x: ["15%", "-10%", "15%"], y: ["10%", "-15%", "10%"] }}
-            transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
+            transition={{ duration: 30, repeat: Infinity, ease: "linear", delay: 2 }}
             className="absolute top-1/3 -right-1/4 h-[500px] w-[500px] bg-gradient-to-tl from-teal-200/30 via-emerald-100/25 to-transparent rounded-full blur-[100px] -z-10"
           />
         </>
@@ -186,12 +197,12 @@ export function Hero() {
       <div className="absolute inset-0 -z-10 opacity-[0.008] dark:opacity-[0.015]" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 200\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'noiseFilter\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.65\' numOctaves=\'3\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23noiseFilter)\'/%3E%3C/svg%3E")', backgroundRepeat: 'repeat' }} />
 
       {/* 4. Scanning Beam */}
-      {!prefersReduced && (
+      {!prefersReduced && isDesktop && (
         <motion.div
           className="absolute left-0 right-0 h-px z-0 pointer-events-none bg-gradient-to-r from-transparent via-emerald-500/80 to-transparent shadow-[0_0_30px_6px_rgba(5,150,105,0.35)]"
           initial={{ top: '0%' }}
           animate={{ top: '100%' }}
-          transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
+          transition={{ duration: 8, repeat: Infinity, ease: "linear", delay: 2 }}
         />
       )}
 
@@ -485,7 +496,7 @@ export function Hero() {
               />
 
               {/* Scanning Reticle */}
-              {!prefersReduced && (
+              {!prefersReduced && isDesktop && (
                 <motion.div
                   animate={reticleControls}
                   initial={{ opacity: 0 }}

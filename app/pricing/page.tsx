@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       "Simple scan-credit pricing for website change monitoring. Starter at $29/mo, Pro at $59/mo, Business at $129/mo, Agency at $249/mo. 7-day free trial on every plan.",
     type: "website",
-    images: [{ url: "https://pagesentinel.io/assets/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://pagesentinel.io/assets/ai-image.webp", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",

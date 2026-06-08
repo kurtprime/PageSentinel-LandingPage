@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description:
       "Every hour a broken checkout or incorrect price goes undetected is lost revenue. Monitor your ecommerce pages for layout breaks, pricing changes, and form errors.",
     type: "article",
-    images: [{ url: "https://pagesentinel.io/assets/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://pagesentinel.io/assets/ai-image.webp", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",

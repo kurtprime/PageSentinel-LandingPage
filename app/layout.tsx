@@ -4,7 +4,6 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/sonner"
 import { Navbar } from "@/components/landing/navbar"
 import { Footer } from "@/components/landing/footer"
-import Script from 'next/script'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -64,7 +63,7 @@ export const metadata: Metadata = {
     description:
       "Detect visual, structural, and content changes across the pages you care about. Catch website defacement, broken layouts, and policy changes before your customers do.",
     type: "website",
-    images: [{ url: "/assets/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "/assets/ai-image.webp", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
@@ -135,14 +134,16 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-md focus:bg-emerald-600 focus:text-white focus:px-4 focus:py-2"
+        >
+          Skip to content
+        </a>
         <Navbar />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">{children}</main>
         <Footer />
         <Toaster />
-        <Script
-          src="https://assets.calendly.com/assets/external/widget.js"
-          strategy="lazyOnload"
-        />
       </body>
     </html>
   );

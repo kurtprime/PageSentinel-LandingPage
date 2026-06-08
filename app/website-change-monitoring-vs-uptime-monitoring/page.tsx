@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description:
       "Uptime monitoring checks if your server responds. Website change monitoring checks if your pages are correct. Learn the critical difference.",
     type: "article",
-    images: [{ url: "https://pagesentinel.io/assets/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://pagesentinel.io/assets/ai-image.webp", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",

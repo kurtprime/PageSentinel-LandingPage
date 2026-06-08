@@ -1,8 +1,14 @@
 'use client'
 
+import Script from 'next/script'
+
 export function CalendlyEmbed() {
   return (
     <section id="book-demo" className="border-t border-border/40">
+      <Script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        strategy="lazyOnload"
+      />
       <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:py-20">
         <div className="mx-auto max-w-2xl text-center mb-8">
           <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
